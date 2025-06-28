@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinoth S | Java & Front-End Developer</title>
+  <link rel="icon" type="image/png" href="vijay.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100 text-white font-sans w-full min-h-screen bg-cover bg-center"
+  style="background-image: url('benz.jpg');background-position:center 55%;">
+
+  <!-- Opening Video -->
+  <div id="videoIntro" class="video-overlay">
+    <video autoplay muted playsinline onended="document.getElementById('videoIntro').style.display='none'">
+      <source src="intro.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- Navigation -->
+  <nav class="w-full bg-purple-800 bg-opacity-80 text-white shadow-md sticky top-0 z-50 py-1 sm:py-2">
+  <div class="max-w-7xl mx-auto px-2 sm:px-6 flex flex-col sm:flex-row items-center justify-between">
+    <h1 class="text-base sm:text-xl font-semibold">Vinoth S</h1>
+    <div class="flex flex-wrap justify-center items-center gap-2 sm:gap-6 text-xs sm:text-base">
+      <a href="#about" class="hover:underline inline-flex items-center gap-1 sm:gap-2">🏠 <span>About</span></a>
+      <a href="#skills" class="hover:underline inline-flex items-center gap-1 sm:gap-2">🛠️ <span>Skills</span></a>
+      <a href="#projects" class="hover:underline inline-flex items-center gap-1 sm:gap-2">💼 <span>Projects</span></a>
+      <a href="#contact" class="hover:underline inline-flex items-center gap-1 sm:gap-2">📞 <span>Contact</span></a>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 fade-in w-full">
+    <div class="max-w-5xl mx-auto px-4 flex flex-col items-center gap-4">
+      <h2 class="text-2xl font-bold text-animate bg-purple-600 bg-opacity-80 px-4 py-2 rounded-lg text-white">Hi, I'm
+        Vinoth S</h2>
+      <p class="text-lg text-white bg-gray-900 bg-opacity-70 px-4 py-2 rounded-md">Java & Front-End Developer from
+        Trichy, Tamil Nadu</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="w-full fade-in">
+    <div class="max-w-6xl mx-auto px-6 py-12 bg-white bg-opacity-10 rounded-xl backdrop-blur-md text-white">
+      <h3 class="text-2xl font-bold mb-4">About Me</h3>
+      <p>
+        I'm a motivated developer with strong OOP knowledge, experienced in building web applications using Java, JSP,
+        HTML, CSS, JavaScript, and MySQL. I have a passion for full-stack development and enjoy learning new
+        technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="w-full fade-in" data-aos="zoom-in">
+    <div class="max-w-6xl mx-auto px-6 py-12 bg-white bg-opacity-10 rounded-xl backdrop-blur-md text-white">
+      <h3 class="text-2xl font-bold mb-6">Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="bg-purple-800 bg-opacity-100 p-2 rounded" data-aos="zoom-in">Java, Python</div>
+        <div class="bg-purple-800 bg-opacity-100 p-2 rounded" data-aos="zoom-in">HTML, CSS, JavaScript</div>
+        <div class="bg-purple-800 bg-opacity-100 p-2 rounded" data-aos="zoom-in">JDBC, JSP, Servlets</div>
+        <div class="bg-purple-800 bg-opacity-100 p-2 rounded" data-aos="zoom-in">MySQL, Eclipse, GitHub</div>
+        <div class="bg-purple-800 bg-opacity-100 p-2 rounded" data-aos="zoom-in">Adobe Photoshop, MS Office</div>
+        <div class="bg-purple-800 bg-opacity-100 p-2 rounded" data-aos="zoom-in">Teamwork, Problem Solving, 3D Animation
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="w-full fade-in">
+    <div class="max-w-6xl mx-auto px-6 py-12 bg-white bg-opacity-10 rounded-xl backdrop-blur-md text-white">
+      <h3 class="text-2xl font-bold mb-6">Projects</h3>
+      <div class="space-y-6">
+        <div>
+          <h4 class="text-xl font-semibold">Student Result Management System</h4>
+          <p>Web application using Java, JSP, JDBC, and MySQL. Features include admin login, student result view, and
+            percentage calculation.</p>
+          <a href="https://github.com/vinoths1/Student-Result-Management-System" class="text-blue-300"
+            target="_blank">GitHub Repo</a>
+        </div>
+        <div>
+          <h4 class="text-xl font-semibold">Portfolio Website</h4>
+          <p>Personal website built using HTML, CSS, and JavaScript to showcase projects and background.</p>
+          <a href="https://github.com/vinoths1/my-portfolio" class="text-blue-300" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="text-black bg-white bg-opacity-70 px-2 py-1 rounded">
+    <div class="max-w-6xl mx-auto px-6 py-12">
+      <h3 class="text-2xl font-bold mb-4">Contact</h3>
+      <p>Email: <a href="mailto:vs9798149@gmail.com" class="text-blue-800">vs9798149@gmail.com</a></p>
+      <p>Phone: +91 93847 89878</p>
+      <p>GitHub: <a href="https://github.com/vinoths1" class="text-blue-800" target="_blank">vinoths1</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/vinoth-s3" class="text-blue-800" target="_blank">vinoth-s3</a></p>
+    </div>
+  </section>
+
+  <footer
+    class="border-t border-white border-opacity-30 text-center py-4 text-sm text-white backdrop-blur-sm bg-white bg-opacity-0">
+    © 2025 Vinoth. All rights reserved.
+  </footer>
+</body>
+
+</html>
