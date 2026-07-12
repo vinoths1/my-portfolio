@@ -691,6 +691,7 @@ display:none;
 }
 
 .code-card{
+display:none;
 width:100%;
 margin-bottom:32px;
 }
