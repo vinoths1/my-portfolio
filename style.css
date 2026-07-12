@@ -672,14 +672,22 @@ font-size:24px;
 
 nav ul{
 margin-top:8px;
+width:100%;
+flex-wrap:nowrap;
+justify-content:space-between;
 }
 
 nav ul li{
-margin:5px 8px;
+margin:0 5px;
+white-space:nowrap;
 }
 
 nav ul li a{
-font-size:13px;
+font-size:12px;
+}
+
+nav ul li a i{
+display:none;
 }
 
 .code-card{
