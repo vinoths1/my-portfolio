@@ -655,6 +655,41 @@ margin:10px;
 }
 
 }
+
+@media(max-width:600px){
+
+.hero{
+padding:150px 16px 70px;
+}
+
+.code-card{
+width:100%;
+margin-bottom:32px;
+}
+
+.code-card pre{
+padding:20px 16px;
+font-size:11px;
+line-height:1.7;
+white-space:pre-wrap;
+overflow-x:hidden;
+}
+
+.buttons{
+display:flex;
+flex-direction:column;
+align-items:stretch;
+gap:14px;
+}
+
+.btn,
+.btn2{
+margin-right:0;
+padding:14px 20px;
+text-align:center;
+}
+
+}
 /* ===========================
    THEME BUTTON
 =========================== */
