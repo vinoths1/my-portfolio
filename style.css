@@ -659,7 +659,27 @@ margin:10px;
 @media(max-width:600px){
 
 .hero{
-padding:150px 16px 70px;
+padding:130px 16px 70px;
+}
+
+nav{
+padding:10px 14px;
+}
+
+.logo{
+font-size:24px;
+}
+
+nav ul{
+margin-top:8px;
+}
+
+nav ul li{
+margin:5px 8px;
+}
+
+nav ul li a{
+font-size:13px;
 }
 
 .code-card{
